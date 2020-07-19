@@ -2270,6 +2270,7 @@
     function ajaxStart(url, file, callback, count, files) {
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4) {
+                console.log(xhr.responseText);
                 imgPaths[imgPaths.length] = xhr.responseText;
                 uploadCount++;
                 callback(count, files);

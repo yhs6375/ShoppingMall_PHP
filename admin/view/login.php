@@ -17,8 +17,9 @@ head_end();
 <app>
     <div class="container-login">
         <div class="wrap-login">
-            <div class="hodo-logo">
-                <object class="hodo-logo-obj" data="/assets/img/hodofactory_logo.svg" type="image/svg+xml"></object>
+            <div class="hodo-logo" style="text-align:center;font-size:44px;font-weight:bold;">
+                YOON HOSUNG
+                <!--<object class="hodo-logo-obj" data="/assets/img/hodofactory_logo.svg" type="image/svg+xml"></object>-->
             </div>
             <div class="login-title">
                 Login
@@ -27,15 +28,15 @@ head_end();
                 <fieldset>
                     <div class="wrap-input validate-form" data-validate="UserID is required" style="margin-bottom:23px">
                         <span class="label-input">Username</span>
-                        <input id="id-input" class="input" type="text" name="id" placeholder="Type your ID"
+                        <input id="id-input" class="input" type="text" name="id" placeholder="admin@admin.com"
                             maxlength="40">
                         <span class="focus-input" data-symbol="perm_identity"></span>
                     </div>
                     <div class="wrap-input validate-form" data-validate="Password is required"
                         style="margin-bottom:23px">
                         <span class="label-input">Password</span>
-                        <input id="pass-input" class="input" type="password" name="password"
-                            placeholder="Type your password" maxlength="20">
+                        <input id="pass-input" class="input" type="password" name="password" placeholder="!a1234"
+                            maxlength="20">
                         <span class="focus-input" data-symbol="lock"></span>
                     </div>
                     <div class="alert pb-8"><?php

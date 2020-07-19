@@ -12,9 +12,9 @@ use Util\ResponseMsg;
 
 try {
 	$memberData = new MemberData();
-	$memberData->id = "admin@hosung.com";
-	$memberData->pw = "a644260";
-	$memberData->name = "hosung";
+	$memberData->id = "admin@admin.com";
+	$memberData->pw = "!a1234";
+	$memberData->name = "adminadmin";
 	$registProcess = new AdminRegistProcess();
 	$registProcess->regist($memberData);
 	ResponseMsg::responseSuccess(1);

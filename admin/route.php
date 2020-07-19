@@ -13,7 +13,7 @@ $router = new HSRouter();
 Logger::log(json_encode($_SERVER['REMOTE_ADDR']));
 //Logger::log(json_encode($_SERVER['HTTP_X_FORWARDED_FOR']));
 $router->map("GET", "/", function () {
-    require VIEW_DIR . "mainpage.php";
+    require VIEW_DIR . "login.php";
 }, "mainpage");
 $router->map("GET|POST", "/login", function () {
     require VIEW_DIR . "login.php";
@@ -49,6 +49,9 @@ $router->map("GET|POST", "/user/regist", function () {
 $router->map("POST", "/products/new/image", function () {
     require SERVER_DIR . "file/imageUpload.php";
 }, "image_upload_process");
+$router->map("POST", "/upload/img", function () {
+    require SERVER_DIR . "file/editorImageUpload.php";
+}, "image_upload_editor");
 
 $router->map("GET", "/test", function () {
     require VIEW_DIR . "test.php";

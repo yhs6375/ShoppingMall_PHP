@@ -12,7 +12,7 @@ window.HSset = {
         maxSize: 50 * 1024 * 1024, //type of size is byte
         maxImageWidth: 3000,
         maxImageHeight: 2560,
-        uploadURL: "./upload/imgUpload.php",
+        uploadURL: "/upload/img",
     },
     //video setting
     video: {
