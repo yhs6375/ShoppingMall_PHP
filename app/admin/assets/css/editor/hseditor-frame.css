@@ -1,0 +1,7 @@
+@CHARSET "EUC-KR";
+p{
+	margin:0;
+}
+span:empty:after{
+	content:"";
+}

@@ -1,0 +1,4 @@
+2019-11-15 11:21:24 : (29)C:\php_web\food_shopping\app\admin\server\user\LoginProcess.php, Call to undefined method Server\Member\Login\LoginProcess::processAdminPageLogin()
+2019-11-15 11:22:59 : (29)C:\php_web\food_shopping\app\admin\server\user\LoginProcess.php, Call to undefined method Server\Member\Login\LoginProcess::processAdminPageLogin()
+2019-11-15 11:23:16 : (29)C:\php_web\food_shopping\app\admin\server\user\LoginProcess.php, Call to undefined method Server\Member\Login\LoginProcess::processAdminPageLogin()
+2019-11-15 11:25:13 : (29)C:\php_web\food_shopping\app\admin\server\user\LoginProcess.php, Call to undefined method Server\Member\Login\LoginProcess::processAdminPageLogin()
